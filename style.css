@@ -134,7 +134,7 @@ form label {
     font-size: 25px;
 }
 
-.checkbox-itens {
+#checkbox-itens {
     display: flex;
     justify-content: space-around;
     align-items: center;
