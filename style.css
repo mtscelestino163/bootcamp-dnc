@@ -240,6 +240,8 @@ footer #linha2 a:hover {
 }
 
 @media only screen and (max-width: 600px) {
+    /* MENU */
+
     #principal {
         flex-direction: column;
         height: auto;
@@ -259,5 +261,37 @@ footer #linha2 a:hover {
     #principal button {
         width: 100%;
         margin: 0px;
+    }
+
+    /* SECTION */
+
+    section h1 {
+        font-size: 30px;
+    }
+
+    section h2 {
+        font-size: 28px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    form {
+        width: 95%;
+        font-size: 20px;
+    }
+
+    #checkbox-itens label {
+        font-size: 17px;
+    }
+
+    /* FOOTER */
+
+    footer #linha1 {
+        flex-direction: column;
+    }
+
+    footer #endereco {
+        width: 95%;
+        margin-bottom: 20px;
     }
 }
